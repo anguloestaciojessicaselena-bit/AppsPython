@@ -1,19 +1,7 @@
-def crear_lista(*elementos):
-    """
-    Crea una lista a partir de los argumentos proporcionados.
-    
-    Args:
-        *elementos: Elementos que conformarán la lista.
-        
-    Returns:
-        list: Una lista con los elementos dados.
-    """
-    return list(elementos)
+_nombre="jessica"
+_apellido="Angulo"
+_cedula="0804386621"
+_celular="0985866533"
+_edad="24"
 
-if __name__ == "__main__":
-    # Ejemplo de uso
-    numeros = crear_lista(1, 2, 3, 4, 5)
-    print("Lista de números:", numeros)
-    
-    mixta = crear_lista("Python", 3.14, True, [1, 2])
-    print("Lista mixta:", mixta)
+print("que tal soy " +_ jessica+""+_ Angulo+"tengo 24 años" de edad + _mi numero de cedula es "0804386621" y si en algun caso desean mi servicio mi numero es el siguiente"0985866533")
